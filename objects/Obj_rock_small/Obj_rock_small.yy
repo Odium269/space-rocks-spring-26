@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_game",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_rock_small",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_game",
+  "name":"Obj_rock_small",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_rock_small",
+    "path":"sprites/spr_rock_small/spr_rock_small.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
