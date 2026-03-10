@@ -1,0 +1,1 @@
+botton_text = "Play";

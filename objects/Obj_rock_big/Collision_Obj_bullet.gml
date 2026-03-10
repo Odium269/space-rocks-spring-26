@@ -1,4 +1,6 @@
-Obj_game.points =+ 50;
+audio_play_sound(snd_rockdestroy, 0, false, 1, 0, random_range(0.6, 1.1));
+
+Obj_game.points = + 50;
 
 instance_destroy(other);
 effect_create_above(ef_explosion, x, y, 1, c_white);
